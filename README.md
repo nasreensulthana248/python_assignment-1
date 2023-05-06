@@ -1,4 +1,4 @@
-# python_assignment-1
+# python_assignment-1                                                         # number: 9
 num = int(input())
 num1 = 0
 num2 = 1
@@ -8,7 +8,7 @@ elif num >=1:
     print(num2, end=" ")
     for x in range(1, num):
         num3 = num1 + num2
-        num1 = num2
+        num1 = num2                                                           #Expected output: 1,1,2,3,5,8,13,21,34
         num2 = num3
-        print(num3, end=" ")
+        print(num3, end=" ")                                                  # My output: 1,1,2,3,5,8,13,21,34
         
